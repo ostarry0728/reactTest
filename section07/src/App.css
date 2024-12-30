@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 30px;
+}
+.app {
+  margin: 0 auto;
+  width: 500px;
+  border: 1px solid black;
+}
+
+.app > h1 {
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: blue;
+}
+
+.app > section {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.app > section.viewer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app > section.controller {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
